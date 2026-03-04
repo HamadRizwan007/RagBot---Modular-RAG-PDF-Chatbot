@@ -1,2 +1,2 @@
-Create virtual environment: python -m venv ragenv
-Activate ragenv : ragenv/scripts/activate
+Create virtual environment: python -m venv env
+Activate env : env/scripts/activate
