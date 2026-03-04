@@ -1,0 +1,13 @@
+# Environment variables
+.env
+
+# Python virtual environment
+ragenv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+
+# App data / generated files
+server/chroma_store/
+server/uploaded_pdfs/
