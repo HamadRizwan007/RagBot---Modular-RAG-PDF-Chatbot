@@ -8,22 +8,22 @@ A production-style **Retrieval-Augmented Generation (RAG)** application built wi
 
 ## 📸 Screenshots
 
-**Streamlit UI — Chat in Action**
+**1. Streamlit UI — Chat in Action**
 ![**Streamlit UI — Chat in Action**](screenshots/1.png)
 
-**Streamlit UI — Upload Screen**
+**2. Streamlit UI — Upload Screen**
 ![**Streamlit UI — Upload Screen**](screenshots/2.png)
 
-**FastAPI Swagger Docs**
+**3. FastAPI Swagger Docs**
 ![**FastAPI Swagger Docs**](screenshots/3.png)
 
-**Postman — `/ask/`**
+**4. Postman — `/ask/`**
 ![**Postman — `/ask/`**](screenshots/4.png)
 
-**Postman — `/upload_pdfs/`**
+**5. Postman — `/upload_pdfs/`**
 ![**Postman — `/upload_pdfs/`**](screenshots/5.png)
 
-**Postman — `/clear_db/`**
+**6.Postman — `/clear_db/`**
 ![**Postman — `/clear_db/`**](screenshots/6.png)
 
 ---
