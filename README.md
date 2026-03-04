@@ -8,7 +8,12 @@ A production-style **Retrieval-Augmented Generation (RAG)** application built wi
 
 ## 📸 Screenshots
 
-> *(Add screenshots here — see recommendations at the bottom of this README)*
+![**Streamlit UI — Chat in Action**](screenshots/1.png)
+![**Streamlit UI — Upload Screen**](screenshots/2.png)
+![**FastAPI Swagger Docs**](screenshots/3.png)
+![**Postman — `/ask/`**](screenshots/4.png)
+![**Postman — `/upload_pdfs/`**](screenshots/5.png)
+![**Postman — `/clear_db/`**](screenshots/6.png)
 
 ---
 
@@ -50,7 +55,7 @@ Query Embedding  ──►  ChromaDB Vector Search  ──►  Top-K Relevant Ch
 ## 🗂️ Project Structure
 
 ```
-RagBot-2.0/
+RagBot-PDF-CHATBOT/
 ├── client/                     # 🖥️ Streamlit Frontend
 │   ├── components/
 │   │   ├── chatUI.py           # Chat interface component
@@ -91,7 +96,7 @@ RagBot-2.0/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/snsupratim/RagBot-2.0.git
+git clone https://github.com/HamadRizwan007/RagBot---Modular-RAG-PDF-Chatbot.git
 cd RagBot-2.0
 ```
 
@@ -182,21 +187,6 @@ GROQ_API_KEY="your_groq_api_key_here"
 
 ---
 
-## 📌 Notes
-
-- `chroma_store/` and `uploaded_pdfs/` are created automatically on first run — do not commit them.
-- Add both to your `.gitignore`:
-  ```
-  server/chroma_store/
-  server/uploaded_pdfs/
-  ragenv/
-  __pycache__/
-  .env
-  ```
-- The Streamlit client communicates with the FastAPI server via HTTP — ensure the backend is running before launching the frontend.
-
----
-
 ## 🙌 Credits
 
 - [LangChain](https://www.langchain.com/) — RAG pipeline orchestration
@@ -210,15 +200,3 @@ GROQ_API_KEY="your_groq_api_key_here"
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 📸 Recommended Screenshots to Include
-
-Replace the Screenshots section above with these captures:
-
-1. **Streamlit UI — Upload Screen** — Show the PDF upload panel
-2. **Streamlit UI — Chat in Action** — A question being answered from a real PDF
-3. **FastAPI Swagger Docs** — `http://127.0.0.1:8000/docs` showing all endpoints
-4. **Postman — `/upload_pdfs/`** — A successful PDF upload response
-5. **Postman — `/ask/`** — A query with the JSON response body visible
